@@ -1,0 +1,42 @@
+#
+#  PUMP-AND-TREAT WITH FLOW AND TRANSPORT CONSTRAINTS
+#  (SEE MGO USER'S MANUAL SECTION 5.3)
+#
+
+Test problem no. 2  case 1
+2D transient flow field
+
+1 0   !iOptSolver, iResponse
+
+100 100 20  0  0  1     !MaxIter,NSimPerIter,NTOL,irestrt,Ldbg,iFinalSim
+
+1   0  0  0.04  1000  0                   !MinMax, cobj(1)...(5)
+
+4  -10000.  0  1.e20  !nparam,  pscale,  nactive,  pent0
+
+1   0. 1.   32   1 9  5   1 1 0 0 /
+
+2   0. 1.   32   1 9  8   1 1 0 0 /
+
+3   0. 1.   32   1 9 11   1 1 0 0 /
+
+4   0. 1.   32   1 9 14   1 1 0 0 /
+
+0   !GlobalMinMax constraint
+
+0   !dependent variables
+
+0 1.e20          !head diff constraints
+
+0 1.e20          !head bound constraints
+
+0                !balance constraints
+
+1 1.e20          !conc. bound constraints
+1, 1 1, 1 7 12, 1 11 18, -999  2.
+ t                             !stochastic(T)/deterministic(F)
+25  4 50                      !Nnoisy0, Ngen, Maxinoisy
+ 0.95
+ 1000   69069                  !number of all K_data files, random number seed
+==============
+end of file

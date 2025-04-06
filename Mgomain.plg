@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mgomain - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\QIANKU~1\AppData\Local\Temp\RSP326D.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Mgomain.pdb" /machine:I386 /out:"Release/Mgomain.exe" 
+".\Release\BAS1.OBJ"
+".\Release\BCF2.OBJ"
+".\Release\CHD1.OBJ"
+".\Release\DRN1.OBJ"
+".\Release\DTSSUBS.OBJ"
+".\Release\EVT1.OBJ"
+".\Release\FUNCTS.OBJ"
+".\Release\GETMASS.OBJ"
+".\Release\GHB1.OBJ"
+".\Release\HFB1.OBJ"
+".\Release\LKMT3.OBJ"
+".\Release\Mgomain.obj"
+".\Release\MODSUBS.OBJ"
+".\Release\MT3DMS4.OBJ"
+".\Release\MT_ADV4.OBJ"
+".\Release\MT_BTN4.OBJ"
+".\Release\MT_DSP4.OBJ"
+".\Release\MT_FMI4.OBJ"
+".\Release\MT_GCG4.OBJ"
+".\Release\MT_RCT4.OBJ"
+".\Release\MT_SSM4.OBJ"
+".\Release\MT_UTL4.OBJ"
+".\Release\OPT2.OBJ"
+".\Release\PCG2.OBJ"
+".\Release\pdflib.obj"
+".\Release\RCH1.OBJ"
+".\Release\RIV1.OBJ"
+".\Release\rnglib.obj"
+".\Release\SIP1.OBJ"
+".\Release\SOR1.OBJ"
+".\Release\STR1.OBJ"
+".\Release\UTL1.OBJ"
+".\Release\WEL1.OBJ"
+]
+Creating command line "link.exe @C:\Users\QIANKU~1\AppData\Local\Temp\RSP326D.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+Mgomain.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

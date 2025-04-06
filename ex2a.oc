@@ -1,0 +1,21 @@
+         5         0         3         0
+         0         1         0         0     StressPeriod:   1  TimeStep:   1
+         1         0         1         0     StressPeriod:   1  TimeStep:   1
+         0         1         0         0     StressPeriod:   1  TimeStep:   2
+         0         0         1         0     StressPeriod:   1  TimeStep:   2
+         0         1         0         0     StressPeriod:   1  TimeStep:   3
+         0         0         1         0     StressPeriod:   1  TimeStep:   3
+         0         1         0         0     StressPeriod:   1  TimeStep:   4
+         0         0         1         0     StressPeriod:   1  TimeStep:   4
+         0         1         0         0     StressPeriod:   1  TimeStep:   5
+         0         0         1         0     StressPeriod:   1  TimeStep:   5
+         0         1         0         0     StressPeriod:   2  TimeStep:   1
+         0         0         1         0     StressPeriod:   2  TimeStep:   1
+         0         1         0         0     StressPeriod:   2  TimeStep:   2
+         0         0         1         0     StressPeriod:   2  TimeStep:   2
+         0         1         0         0     StressPeriod:   2  TimeStep:   3
+         0         0         1         0     StressPeriod:   2  TimeStep:   3
+         0         1         0         0     StressPeriod:   2  TimeStep:   4
+         0         0         1         0     StressPeriod:   2  TimeStep:   4
+         0         1         0         0     StressPeriod:   2  TimeStep:   5
+         0         0         1         0     StressPeriod:   2  TimeStep:   5

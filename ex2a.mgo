@@ -1,0 +1,370 @@
+  ------- 
+ | M G O | Test problem no. 2  case 1                                                      
+ | r2003 | 2D transient flow field                                                                                                                                                                                 
+  ------- 
+
+ Optimization Solver Selected: Genetic Algorithms
+ Response Database Not Saved
+ Maximum Number of Iterations =  100
+ Number of Forward Simulations per Iteration =  100
+ Number of Iterations for Convergence =   20
+ Restart Option Not Activated
+ Debugging Level =  0 (Intermediate Simulations Not Saved)
+ Final Simulation with Optimized Parameters Required
+
+ Direction of Optimization -> Minimization
+
+ Coefficients for the Objective Function
+ ---------------------------------------
+ Fixed capital cost per well =  0.000    
+ Drilling/Installation cost per unit depth of well =  0.000    
+ Pumping/Treatment cost per unit volume of flow = 0.4000E-01
+ Mass removal cost factor =  1000.    
+ External objective function multiplier =  0.000    
+
+ Number of Optimization Parameters =    4
+ Parameter Scaling Factor =  -10000.00    
+ Number of Parameters Active at Any Time =    0
+ Penalty if Active Parameters More than Specified Maximum =  0.1000000E+21
+ ParamNo. Mimimum   Maximum  # of Discret. K   I   J    SP1  SP2  Depth  iOptOnOff Starting KIJ   Ending KIJ                   Weighting Factors
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
+    1     0.000       1.000       32       1   9   5     1    1   0.000      0     1    9    5    1    9    5      1.00      1.00      1.00      1.00      1.00    
+    2     0.000       1.000       32       1   9   8     1    1   0.000      0     1    9    8    1    9    8      1.00      1.00      1.00      1.00      1.00    
+    3     0.000       1.000       32       1   9  11     1    1   0.000      0     1    9   11    1    9   11      1.00      1.00      1.00      1.00      1.00    
+    4     0.000       1.000       32       1   9  14     1    1   0.000      0     1    9   14    1    9   14      1.00      1.00      1.00      1.00      1.00    
+
+ Number of global MinMax constraints =    0
+
+ Number of Dependent Parameters =    0
+
+ Number of Constraints (Head Diff.) =     0
+ Penalty for Violating Constraints =   0.1000000E+21
+ Starting SP Ending SP  Outside (K,I,J)    Inside (K,I,J)      Head Diff.
+ ------------------------------------------------------------------------
+
+ Number of Constraints (Head Bounds) =     0
+ Penalty for Violating Constraints =   0.1000000E+21
+ Starting SP Ending SP  Starting (K,I,J)   Ending (K,I,J)     Lower Bound    Upper Bound 
+ ---------------------------------------------------------------------------------------
+
+ Number of Constraints (Balance) =     0
+ Penalty for Violating Constraints =    0.000000    
+ Location (K,I,J)  Depend on Param No.     Coeff. 1     Coeff. 2
+ ---------------------------------------------------------------
+
+ Number of Constraints (Conc Bounds) =     1
+ Penalty for Violating Constraints =   0.1000000E+21
+ Species  Starting SP Ending SP  Starting (K,I,J)   Ending (K,I,J)     Lower Bound    Upper Bound 
+ ----------------------------------------------------------------------------------------------------------
+     1          1        1        1     7    12     1    11    18     -9.9900E+02     2.0000E+00
+
+ Conductivity/Transmissivity(K/T) exists Uncertainty,
+  and Using a noisy GA to search the optimal design,
+  number of initial sample sets for noisy GA   = 25
+  increment of generations that Nnoisy changed =  4
+  maximum number of the noisy sample sets      = 50
+  The percentage confidence level =   0.950000000000000     
+
+###############  Initial Population  ##############
+
+ Number of chromosomes    4
+
+################  GA Generation 0001  ################
+
+
+################  GA Generation 0002  ################
+
+
+################  GA Generation 0003  ################
+
+
+################  GA Generation 0004  ################
+
+
+################  GA Generation 0005  ################
+
+
+################  GA Generation 0006  ################
+
+
+################  GA Generation 0007  ################
+
+
+################  GA Generation 0008  ################
+
+
+################  GA Generation 0009  ################
+
+
+################  GA Generation 0010  ################
+
+
+################  GA Generation 0011  ################
+
+
+################  GA Generation 0012  ################
+
+
+################  GA Generation 0013  ################
+
+
+################  GA Generation 0014  ################
+
+
+################  GA Generation 0015  ################
+
+
+################  GA Generation 0016  ################
+
+
+################  GA Generation 0017  ################
+
+
+################  GA Generation 0018  ################
+
+
+################  GA Generation 0019  ################
+
+
+################  GA Generation 0020  ################
+
+
+################  GA Generation 0021  ################
+
+
+################  GA Generation 0022  ################
+
+
+################  GA Generation 0023  ################
+
+
+################  GA Generation 0024  ################
+
+
+################  GA Generation 0025  ################
+
+
+################  GA Generation 0026  ################
+
+
+################  GA Generation 0027  ################
+
+
+################  GA Generation 0028  ################
+
+
+################  GA Generation 0029  ################
+
+
+################  GA Generation 0030  ################
+
+
+################  GA Generation 0031  ################
+
+
+################  GA Generation 0032  ################
+
+
+################  GA Generation 0033  ################
+
+
+################  GA Generation 0034  ################
+
+
+################  GA Generation 0035  ################
+
+
+################  GA Generation 0036  ################
+
+
+################  GA Generation 0037  ################
+
+
+################  GA Generation 0038  ################
+
+
+################  GA Generation 0039  ################
+
+
+################  GA Generation 0040  ################
+
+
+################  GA Generation 0041  ################
+
+
+################  GA Generation 0042  ################
+
+
+################  GA Generation 0043  ################
+
+
+################  GA Generation 0044  ################
+
+
+################  GA Generation 0045  ################
+
+
+################  GA Generation 0046  ################
+
+
+################  GA Generation 0047  ################
+
+
+################  GA Generation 0048  ################
+
+
+################  GA Generation 0049  ################
+
+
+################  GA Generation 0050  ################
+
+
+################  GA Generation 0051  ################
+
+
+################  GA Generation 0052  ################
+
+
+################  GA Generation 0053  ################
+
+
+################  GA Generation 0054  ################
+
+
+################  GA Generation 0055  ################
+
+
+################  GA Generation 0056  ################
+
+
+################  GA Generation 0057  ################
+
+
+################  GA Generation 0058  ################
+
+
+################  GA Generation 0059  ################
+
+
+################  GA Generation 0060  ################
+
+
+################  GA Generation 0061  ################
+
+
+################  GA Generation 0062  ################
+
+
+################  GA Generation 0063  ################
+
+
+################  GA Generation 0064  ################
+
+
+################  GA Generation 0065  ################
+
+
+################  GA Generation 0066  ################
+
+
+################  GA Generation 0067  ################
+
+
+################  GA Generation 0068  ################
+
+
+################  GA Generation 0069  ################
+
+
+################  GA Generation 0070  ################
+
+
+################  GA Generation 0071  ################
+
+
+################  GA Generation 0072  ################
+
+
+################  GA Generation 0073  ################
+
+
+################  GA Generation 0074  ################
+
+
+################  GA Generation 0075  ################
+
+
+################  GA Generation 0076  ################
+
+
+################  GA Generation 0077  ################
+
+
+################  GA Generation 0078  ################
+
+
+################  GA Generation 0079  ################
+
+
+################  GA Generation 0080  ################
+
+
+################  GA Generation 0081  ################
+
+
+################  GA Generation 0082  ################
+
+
+################  GA Generation 0083  ################
+
+
+################  GA Generation 0084  ################
+
+
+################  GA Generation 0085  ################
+
+
+################  GA Generation 0086  ################
+
+
+################  GA Generation 0087  ################
+
+
+################  GA Generation 0088  ################
+
+
+################  GA Generation 0089  ################
+
+
+################  GA Generation 0090  ################
+
+
+################  GA Generation 0091  ################
+
+
+################  GA Generation 0092  ################
+
+
+################  GA Generation 0093  ################
+
+
+################  GA Generation 0094  ################
+
+
+################  GA Generation 0095  ################
+
+
+################  GA Generation 0096  ################
+
+
+################  GA Generation 0097  ################
+
+
+################  GA Generation 0098  ################
+
+
+################  GA Generation 0099  ################
+
+
+################  GA Generation 0100  ################
+
