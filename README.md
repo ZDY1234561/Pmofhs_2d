@@ -1,2 +1,2 @@
 # Pmofhs_2d
-pmofhd
+pmofhs
